@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/custom_inicio.css">
+    <title>Form</title>
+</head>
+<body>
+    <nav>
+        
+    </nav>
+    <div class="container">
+        <header>
+            <div class="bnt-home">
+                <a href="."><button>Home</button></a>    
+            </div>
+            <P>Advocacia Previdenciarista</P>
+                <p>Dr. Carlos Gonçalves</p>
+        </header>
+
+        <form action="#">
+            <div class="form first">
+
+                <div class="details personal">
+                    <span class="title">Informações dos clientes</span>
+    
+                    <div class="fields">
+                        <div class="input-fields">
+                            <label>Nome Completo</label>
+                            <input type="text" placeholder="Nome Completo" required>
+                        </div>
+    
+                        <div class="input-fields">
+                            <label>CPF</label>
+                            <input type="numbers" placeholder="CPF" maxlength="14" required>
+                        </div>
+    
+                        <div class="input-fields">
+                            <label>Data de Nasc</label>
+                            <input type="date" placeholder="Data" maxlength="4" required>
+                        </div>
+    
+                        <div class="input-fields">
+                            <label>Profissão</label>
+                            <input type="text" placeholder="Profissão" required>
+                        </div>
+    
+                        <div class="input-fields">
+                            <label>Gênero</label>
+                           <select name="sexo" id="selecionar" class="ls-select">
+                            <option class="selection" value="M">masculino</option>
+                            <option class="selection" value="F" >feminino</option>
+                           </select>
+                        </div>
+    
+                        <!--<div class="input-fields">
+                           <select name="" id=""> <label>Gênero</label></select>
+                            <input type="" placeholder="Gênero" required>
+
+                             <select class="input-fields" name="sexo" id="sexo" >
+                            <option class="input-fields" value="G"><label for="select">Gênero</label></option>
+                             <option class="input-fields" value="M">masculino</option>
+                             <option class="input-fields" value="F">feminino</option>
+                         </select>
+                        </div>-->
+                       <!--<div class="input-fields">
+                            <label>Profissão</label>
+                            <input type="email" placeholder="Sua Profissão" required>
+                        </div>-->
+    
+                        <div class="input-fields">
+                            <label>Est Civíl</label>
+                           <select name="Estado civil" id="selecionar" class="ls-select">
+                            <option class="selection" value="M">Solteiro(a)</option>
+                            <option class="selection" value="F" >Casado(a)</option>
+                            <option class="selection" value="F" >Viúvo(a)</option>
+                            <option class="selection" value="F" >União Estável</option>
+                           </select>
+                        </div>
+                    </div>
+
+
+
+    
+                    <div class="">
+                         <span class="title">Informações do Benefício</span>
+                        <div class="fields">
+                            
+                            <div class="input-fields">
+                                <label>Num Benefício</label>
+                                <input type="numbers" placeholder="Num Benefício" required>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Data Cadastro</label>
+                                <input type="date" placeholder="" required>
+                            </div>
+                           <!-- <div class="input-fields">
+                                <label>Profissão</label>
+                                <input type="text" placeholder="Profissão" required>
+                            </div>-->
+
+                            <div class="input-fields">
+                                <label>Tipo Benefício</label>
+                               <select name="Estado civil" id="selecionar" class="ls-select">
+                                <option class="selection" value="0">Tipo Benefício</option>
+                                <option class="selection" value="1">23- Pensão por morte de ex-combatenteex-combatente</option>
+                                <option class="selection" value="2">31- Auxílio-doença previdenciário</option>
+                                <option class="selection" value="3">32- Aposentadoria por invalidez previdenciária</option> 
+                                <option class="selection" value="4">21- Pensão por morte previdenciária</option>
+                                <option class="selection" value="5">91- Auxílio-doença por ambiente de trabalho</option>
+                                <option class="selection" value="6">94- Auxílio-acidente do trabalho</option>
+                                <option class="selection" value="7">92- Aposentadoria invalidez acidente de trabalho</option>
+                                <option class="selection" value="8">41- Aposentadoria por idade</option>
+                                <option class="selection" value="9">42- Aposentadoria por tempo de contribuição</option>
+                                <option class="selection" value="10">36-Auxílio-acidente previdenciário</option>
+                                <option class="selection" value="11">88- BCP/LOAS - Idoso</option>
+                                <option class="selection" value="12">46- Aposentadoria Especial</option>
+                                <option class="selection" value="13">Servidor público federal (aposentado)</option>
+                                <option class="selection" value="">Servidor Público federal (ativa)</option>
+                                <option class="selection" value="">Servidor Público Estadual (aposentado)</option>
+                                <option class="selection" value="">Servidor Público Estadual (ativa)</option>
+                                <option class="selection" value="">Militares Estaduais (PM e BM) </option>
+                                <option class="selection" value="">Outro tipo de benefício</option>
+                                <option class="selection" value="">25- Auxílio-reclusão</option>
+                                <option class="selection" value="">29- Pensão por morte de ex-combatente marítimo</option>
+                                <option class="selection" value="">54- Pensão especial vitalícia</option>
+                                <option class="selection" value="">56- Pensão mensal vitalícia por talidomida</option>
+                                <option class="selection" value="">57- Aposentadoria por t.de svç de professor</option>
+                                <option class="selection" value="">60- Pensão especial mensal vitalícia</option>
+                                <option class="selection" value="">80- Salário-maternidade</option>
+                                <option class="selection" value="">87- BPC/LOAS- deficiente</option>
+                                <option class="selection" value="">93- Pensão por morte por acidente de trabalho</option>
+                               </select>
+                            </div>
+                          
+        
+                            <div class="input-fields">
+                                <label>NIT</label>
+                                <input type="numbers" placeholder="nit" required>
+                            </div>
+        
+                            <div class="input-fields">
+                                <label>Tipo de Ação</label>
+                               <select name="Estado civil" id="selecionar" class="ls-select">
+                                <option class="selection" value="M">Tipo de Ação</option>
+                                <option class="selection" value="1">Aposentadoria Especial</option>
+                                <option class="selection" value="2">Idade do trabalhador rural</option> 
+                                <option class="selection" value="3">Programada (aposentadoria por idade urbana)</option>
+                                <option class="selection" value="3">Auxílio por incapacidade temporária</option>
+                                <option class="selection" value="3">Ação Cível - Todos os Tipos</option>
+                                <option class="selection" value="3">Ação de Revisão Diversa - Todos os Tipos</option>
+                                <option class="selection" value="3">Concessão BPC/LOAS</option>
+                                <option class="selection" value="3">Concessão de apos. tempo de contribuição</option>
+                                <option class="selection" value="3">Concessão de aposentadoria para deficiente</option>
+                                <option class="selection" value="3">Contagem de Tempo de Serviço</option>
+                               </select>
+                            </div>
+        
+                            <div class="input-fields">
+                                <label>Distribuído</label>
+                               <select name="Estado civil" id="selecionar" class="ls-select">
+                                <option class="selection" value="0">Distribuído</option>
+                                <option class="selection" value="1">Justiça Federal</option>
+                                <option class="selection" value="2">Justiça Estadual</option>
+                                <option class="selection" value="3">Justiça do trabalho</option>
+                                <option class="selection" value="4">INSS (Administrativo)</option>
+                               </select>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Num.Autos</label>
+                                <input type="numbers" placeholder="NUM.AUTOS" required>
+                            </div>
+        
+                            <div class="input-fields">
+                                <label>Comarca</label>
+                                <input type="text" placeholder="Comarca" required>
+                            </div>
+        
+                            <div class="input-fields">
+                                <label>Vara</label>
+                                <input type="text" placeholder="vara" required>
+                            </div>
+                        </div>
+        
+    
+                        <button class="nextBtn">
+                            <span class="btnText">Proximo</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+    
+                </div>
+            </div>
+
+        </div>
+
+        <!---->
+
+        <div class="form second">
+            <div class="details adress">
+                <span class="title">Endereço</span>
+
+                <div class="fields">
+                    <div class="input-fields">
+                        <label>Endereço</label>
+                        <input type="text" placeholder="Endereço" required>
+                    </div>
+
+                    <div class="input-fields">
+                        <label>Estado</label>
+                       <select name="Estado civil" id="selecionar" class="ls-select">
+                        <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MS">MS</option>
+                                <option value="MT">MT</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                     </select>
+                    </div>
+
+                    <div class="input-fields">
+                        <label>Cep</label>
+                        <input type="numbers" placeholder="Cep" required>
+                    </div>
+
+                    <div class="input-fields">
+                        <label>N°</label>
+                        <input type="numbers" placeholder="Num" required>
+                    </div>
+
+                    <div class="input-fields">
+                        <label>Cidade</label>
+                        <input type="text" placeholder="Cidade" required>
+                    </div>
+
+                    <div class="input-fields">
+                        <label>complemento</label>
+                        <input type="text" placeholder="Complemento" required>
+                    </div>
+                    <div class="input-fields">
+                        <label>Fone</label>
+                        <input type="numbers" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-fields">
+                        <label>Fone Recado</label>
+                        <input type="numbers" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+                    <div class="input-fields">
+                        <label>Celular</label>
+                        <input type="numbers" placeholder="(xx) xxxxx-xxxx" required>
+                    </div> 
+                </div>
+                <div class="details ID">
+                  <span class="title">Informações de Contato</span>
+    
+                    <div class="fields">
+                        <div class="input-fields">
+                            <label>E-mail</label>
+                            <input type="email" placeholder="Seu melhor E-mail" required>
+                        </div>
+     
+                        <div class="input-fields">
+                            <label>Observações/Duvidas....</label>
+                            <input type="text" placeholder="Comarca" required>
+                        </div> 
+                    </div>
+    
+
+                    <div class="file">
+                        <div>
+                            <label for="profile_pic">Upload de arquivos</label>
+                            <input
+                              type="file"
+                              id="profile_pic"
+                              name="profile_pic"
+                              accept=".pdf" 
+                              multiple/>
+                          </div>
+                    </div>
+
+                 <div class="buttons">
+                      <div class="backBtn">
+                          <i class="uil uil-navigator"></i>
+                          <span class="btnText">voltar</span>
+                  
+                      </div>
+                           <button class="nextBtn" type="submit">
+                              <span class="btnText">Enviar</span>
+                               <i class="uil uil-navigator"></i>
+                          </button>
+                 </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+        </div>
+
+        </form>
+
+        
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+<script src="js/custom_inicio.js"></script>
+</body>
+</html>
